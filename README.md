@@ -1,5 +1,4 @@
-# taylor-swift-2048
-        <h1>2048 Taylor Swift: A Swift-tacular Twist on a Classic Game</h1>
+<h1>2048 Taylor Swift: A Swift-tacular Twist on a Classic Game</h1>
         
         <p>If you're a Taylor Swift fan and love puzzle games, then <a href="https://kaloodinaz.github.io/taylor-swift-2048">2048 Taylor Swift</a> is the perfect game for you! This fun and addictive game combines the challenge of the classic 2048 game with the iconic eras and album covers of Taylor Swift. Whether you're a seasoned Swiftie or just love a good puzzle, this game offers a unique and entertaining way to celebrate Taylor's music while putting your skills to the test.</p>
 
