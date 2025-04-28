@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2048 Taylor Swift | Play Taylor Swift Puzzle Game</title>
-  <meta name="description" content="Combine your love for Taylor Swift & puzzle games with the 2048 Taylor Swift edition. Match tiles featuring Taylor's iconic albums, songs, and eras to win!">
+  <link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#151515" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>2048 Taylor Swift | Play Taylor 2048</title>
+  <meta name="description" content="Combine your love for Taylor Swift 2048 & puzzle games with the 2048 Taylor Swift edition. Match tiles featuring Taylor's iconic albums, songs & eras to win!">
   <link href="style/main.css?v=2" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
@@ -51,6 +55,11 @@
 </style>
 </head>
 <body>
+  <script>
+    if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+    .then(registration => {console.log('Service Worker registered successfully:', registration);})
+    .catch(error => {console.log('Error in Service Worker registration:', error);});});}
+    </script>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -176,7 +185,12 @@
       <h2>Conclusion</h2>
       <p>2048 Taylor Swift is more than just a game—it's a celebration of Taylor Swift's illustrious career, wrapped up in an engaging and addictive puzzle format. Whether you're aiming to unlock all the eras or just want to enjoy some casual gaming with a Taylor Swift twist, this game is sure to keep you entertained. So why wait? Give 2048 Taylor Swift a try today and see how far you can go!</p>
    
-    
+     <hr>
+    <p>
+      This 4 x 4 fast paced version 2048 taylor by <a target="_blank" href="https://kaloodinaz.github.io/">Kaloo Dinaz</a> was cloned from
+      the "non-official" <a target="_blank" href="https://kaloodinaz.github.io/2048-online/">2048 game</a> authored by
+      <a target="_blank" href="https://github.com/kaloodinaz/">Kaloo Dinaz</a>.
+    </p>
   </div>
   <script defer src="js/bind_polyfill.js"></script>
   <script defer src="js/classlist_polyfill.js"></script>
